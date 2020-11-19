@@ -75,5 +75,5 @@ api.add_resource(DateResource, '/dates/<int:date_id>')
 
 
 if __name__ == '__main__':
-    #db.create_all()  #uncomment this line if you run this for the first time
+    # db.create_all()  #uncomment this line if you run this for the first time
     app.run(debug=True)
